@@ -12,10 +12,10 @@
     },
     {
       "title": "Install Dependencies",
-      "description": "npm install --save react-redux \nnpm install —save redux \nnpm install —save redux-thunk"
+      "description": "In your project root, run npm install --save react-redux \nnpm install —save redux \nnpm install —save redux-thunk"
     },
     {
-      "title": "Create Folder Structue",
+      "title": "Create Folder Structure",
       "description": "In your project root create an 'app' folder. In the app folder create an 'actions' folder , a 'reducers' folder and a 'components' folder."
     },
     {
@@ -40,7 +40,6 @@
     },
     {
       "title": "Update your main files",
-      "quote": "Win through your Actions, Never through Argument",
       "description": "Update index.ios.js and index.android.js"
     }
   ]
