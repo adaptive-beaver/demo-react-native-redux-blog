@@ -13,6 +13,9 @@ Boilerplate for a React Native iOS and Android app using Redux
   <li><a href="#step9">Step 9: Update Your Main Files</a></li>
 </ul>
 
+<h2>Demo</h2>
+<a href="https://appetize.io/app/rhbrxh0z4d49tn9t9uermgty40?device=iphone5s&scale=75&orientation=portrait&osVersion=9.3" target="_blank">View Demo</a>
+
 <a name="step1"></a>
 #Step 1: Create React Native Project
 
@@ -27,8 +30,8 @@ react-native init ProjectName
 In your project root, run
 ```bash
 npm install --save react-redux
-npm install —save redux
-npm install —save redux-thunk
+npm install --save redux
+npm install --save redux-thunk
 ```
 
 <a name="step3"></a>
@@ -252,6 +255,33 @@ To do so, it requires a ‘Provider’ wrapping the whole app.
 
 In the app folder, create a js file <b>setup.js</b>
 
+```javascript
+import React, { Component } from 'react';
+import { Provider } from 'react-redux';
+
+import store from '../app/store'; //Import the store
+import Home from '../app/components/home' //Import the component file
+
+function setup() {
+    class Root extends Component {
+        render() {
+            return (
+                <Provider store={store}>
+                    <Home />
+                </Provider>
+            );
+        }
+    }
+
+    return Root;
+}
+
+module.exports = setup;
+// Redux needs to inject a store holding the app state into the app.
+// To do so, it requires a ‘Provider’ wrapping the whole app.
+// This store is basically a combination of reducers.
+
+```
 
 <a name="step9"></a>
 #Step 9: Update Your Main files
