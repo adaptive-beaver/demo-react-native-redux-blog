@@ -85,6 +85,13 @@ It’s up to the reducer to realize if it needs to modify the state or not based
 
 Available on my <a href="http://mosesesan.com/blog/2017/06/18/react-native-redux-boilerplate" target="_blank">blog</a>.
 
+<a name="step6"></a>
+#Step 6: Create Your Component
+
+In your components folder create a js file <b>home.js</b>
+
+Available on my <a href="http://mosesesan.com/blog/2017/06/18/react-native-redux-boilerplate" target="_blank">blog</a>.
+
 <a name="step7"></a>
 ### Step 7: Create Your Store
 
