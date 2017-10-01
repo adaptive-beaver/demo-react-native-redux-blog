@@ -4,6 +4,8 @@
  * Project: React Native Redux Boilerplate
  */
 
+'use strict';
+
 import { AppRegistry } from 'react-native';
 import setup from './app/setup';
 

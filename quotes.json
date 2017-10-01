@@ -1,0 +1,25 @@
+/**
+ * Author: Moses Adekunle Esan for E&M Digital
+ * Date: 6/29/2017
+ * Project: React Native Redux Quotes App with CRUD operations
+ */
+
+{
+  "quotes": [
+    {
+      "id":1,
+      "author": "Vivian Greene",
+      "quote": "Life isn't about waiting for the storm to pass. It's about learning how to dance in the rain."
+    },
+    {
+      "id":2,
+      "author": "Maya Angelou",
+      "quote": "Still, like air, I rise."
+    },
+    {
+      "id":3,
+      "author": "Confucius",
+      "quote": "Our greatest glory is not in never falling, but in rising every time we fall."
+    }
+  ]
+}
