@@ -1,21 +1,23 @@
 /**
  * Author: Moses Adekunle Esan for E&M Digital
- * Date: 2/3/2017
- * Project: React Native Redux Boilerplate
+ * Date: 6/29/2017
+ * Project: React Native Redux Quotes App with CRUD operations
  */
+
+'use strict';
 
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 
 import store from '../app/store'; //Import the store
-import Home from '../app/components/home' //Import the component file
+import Main from '../app/index' //Import the app/index.js file
 
 function setup() {
     class Root extends Component {
         render() {
             return (
                 <Provider store={store}>
-                    <Home />
+                    <Main />
                 </Provider>
             );
         }

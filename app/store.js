@@ -4,6 +4,8 @@
  * Project: React Native Redux Boilerplate
  */
 
+'use strict';
+
 import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
